@@ -1,0 +1,64 @@
+<!-- Задание 1: Группировка заголовков h1 и h2 внутри #block -->
+<div id="block">
+  <h1>Заголовок H1</h1>
+  <h2>Заголовок H2</h2>
+</div>
+<style>
+#block h1, #block h2 {
+	text-align: center;
+}
+</style>
+
+<!-- Задание 2: Разные размеры текста для h1 и h2 -->
+<div id="block">
+  <h1>Заголовок H1</h1>
+  <h2>Заголовок H2</h2>
+</div>
+<style>
+#block h1 {
+	text-align: center;
+	font-size: 30px;
+}
+#block h2 {
+	text-align: center;
+	font-size: 20px;
+}
+</style>
+
+<!-- Задание 3: Группировка с разными классами внутри #block -->
+<div id="block">
+  <h1 class="eee">H1 с классом</h1>
+  <h2 class="zzz">H2 с классом</h2>
+</div>
+<style>
+#block h1.eee, #block h2.zzz {
+	text-align: center;
+}
+</style>
+
+<!-- Задание 4: Разные блоки с одинаковым стилем -->
+<div class="xxx">
+  <p>Параграф 1</p>
+</div>
+<div class="eee">
+  <h2>Заголовок</h2>
+</div>
+<div id="eee">
+  <h2>Заголовок</h2>
+</div>
+<style>
+.xxx .kkk, .eee h2.zzz, #eee h2 {
+	text-align: center;
+}
+</style>
+
+<!-- Задание 5: Другой вариант группировки -->
+<div class="xxx"></div>
+<div class="eee">
+  <h2 class="zzz">Заголовок</h2>
+</div>
+<style>
+.eee h2.zzz, .xxx {
+	text-align: center;
+}
+</style>
